@@ -1,5 +1,8 @@
-.galleryItem {
-  border-radius: 5px;
+.galleryItem > img {
+  border-radius: 10px;
   border: 1px solid black;
   overflow: hidden;
+  margin-bottom: 10px;
+  width: 50%;
+  height: 50%;
 }

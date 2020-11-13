@@ -20,7 +20,7 @@ const arrayOfImagesLi = images.map((el) => {
   const createLi = document.createElement("li");
   createLi.classList.add("galleryItem");
   const createImg = document.createElement("img");
-  createImg.setAttribute("url", el.url);
+  createImg.setAttribute("src", el.url);
   createImg.setAttribute("alt", el.alt);
   createLi.append(createImg);
   return createLi;
