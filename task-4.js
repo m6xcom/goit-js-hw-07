@@ -14,5 +14,5 @@ const decrement = function () {
   return counterValue;
 };
 
-incrementBtn.addEventListener("click", () => increment());
-decrementBtn.addEventListener("click", () => decrement());
+incrementBtn.addEventListener("click", increment);
+decrementBtn.addEventListener("click", decrement);
