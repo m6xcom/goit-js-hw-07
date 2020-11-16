@@ -6,12 +6,10 @@ let counterValue = Number(counter.textContent);
 const increment = function () {
   counterValue += 1;
   counter.textContent = counterValue;
-  return counterValue;
 };
 const decrement = function () {
   counterValue -= 1;
   counter.textContent = counterValue;
-  return counterValue;
 };
 
 incrementBtn.addEventListener("click", increment);
